@@ -19,5 +19,4 @@ class Solution(object):
                 return [cnt,cnt + b +1]
             cnt +=1
     
-                
-~
+        
