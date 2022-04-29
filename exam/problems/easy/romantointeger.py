@@ -16,7 +16,7 @@ class Solution(object):
         rtv = 0
         i_last = 'I'
         for i in s[::-1]:
-            if romdic[i] < past:
+            if romdic[i] < romdic[i_last]:
                 rtv -= romdic[i]
             else:
                 rtv += romdic[i]
