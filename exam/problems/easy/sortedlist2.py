@@ -9,7 +9,10 @@ class Solution(object):
         :type head: ListNode
         :rtype: ListNode
         """
-        r_list = ListNode(head.val)
+        if head: 
+            r_list = ListNode(head.val)
+        else:
+            return None
 
         r_head = r_list
         while head != None:
